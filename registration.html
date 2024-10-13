@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Registration</title>
+	<style>
+		body{
+			background-color:silver;
+			}
+		table,th,td{
+			background-color:grey;
+			border: 2px solid black;
+ 			 border-collapse: collapse
+			
+			}
+		hr{ border:1px solid black
+			}
+		</style>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+	
+		<center>
+		<marquee bgcolor="yellow" width="50%"><h1 style="color:red">WELCOME TO FRESHERS WORLD!!!</h1></marquee>
+		<table border="1" width="50%" cellpadding="4" cellspacing="4">
+			<tr>
+				<th colspan="3"><h3><b>REGISTRATION FORM</b></h3></th>
+			</tr>
+			<tr>
+				<td><label>NAME</label></td>
+				<td colspan="3"><input type="select" name="name"></td>
+			</tr>
+			<tr>
+				<td><label>AGE</label></td>
+				<td colspan="3"><select>
+					<option selected>select</option>
+					<option>option1</option>
+					<option>option2</option></select></td>
+			</tr>
+			<tr>
+				<td><label>PASSWORD</label></td>
+				<td colspan="3"><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td><label>RETYPE PASSWORD</label></td>
+				<td colspan="3"><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td><label>SELECT YOUR SECURITY QUESTION</label></td>
+				<td colspan="3"><input type="radio" name="option"><label>What is your pet name?</label><hr/>
+				<input type="radio" name="option"><label>Who is your best friend?</label><hr/>
+				<input type="radio" name="option"><label>What is your favourite color?</label><hr/>
+				<input type="radio" name="option"><label>Who is your favourite teacher?</label></td>
+			</tr>
+			<tr>
+				<td><label>ANSWER OF SECURITY QUESTION</label></td>
+				<td colspan="3"><input type="text" name="ans"></td>
+			</tr>
+			<tr>
+				<td><label>EMAIL ID</label></td>
+				<td colspan="3"><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td><label>ADDRESS</label></td>
+				<td>Permanent address<br><hr/><textarea wrap="vitual" name="addr"></textarea></td>
+				<td>Temporary address<br><hr/><textarea wrap="vitual" name="addr"></textarea></td>
+			</tr>
+			<tr>
+				<td><label>LANGUAGE KNOWS</label></td>
+				<td><input type="checkbox" name="lang">MALAYALAM
+				<input type="checkbox" name="lang">ENGLISH
+				<input type="checkbox" name="lang">HINDI</td>
+				
+			</tr>
+			<tr>
+				<td><label>Phone number</label></td>
+				<td><label>Home</label><br><hr/>
+				<input type="text" name="home"></td>
+				<td><label>Office</label><br><hr/>
+				<input type="text" name="office"></td>
+
+			</tr>
+			<tr>
+				<td><label>UPLOAD CV</label></td>
+				<td colspan="3"><input type="file" name="file"></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="reset" name="reset"></td>
+				<td align="center" colspan="3"><input type="submit" name="submit"></td>
+			</tr>
+
+
+
+		</table>
+		</center>
+		
+	</body>
+</html>
